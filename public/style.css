@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #072624;
     color: #333;
     line-height: 1.6;
 }
@@ -70,7 +70,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #2980b9;
+    background-color: #2B7F7A;
 }
 
 /* Container */
@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .internship {
-    background-color: white;
+    background-color: #C4E9E6;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -112,7 +112,7 @@ nav a:hover {
 
 /* Aim and Motive Section */
 .aim-motive {
-    background-color: #ffffff;
+    background-color: #C4E9E6;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -135,7 +135,7 @@ nav a:hover {
 
 /* Contact Form Section */
 .contact-form {
-    background-color: white;
+    background-color: #C4E9E6;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -178,6 +178,9 @@ nav a:hover {
     background-color: #2980b9;
 }
 
+.team-grid{
+    color: white;
+}
 /* Footer */
 footer {
     background-color: #2c3e50;
