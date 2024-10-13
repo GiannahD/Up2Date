@@ -17,48 +17,54 @@
   <nav>
     <a href="index.html">Home</a>
     <a href="about-us.html">About Us</a> <!-- Updated link -->
-    <a href="internships.html">Internships</a>
+    <a href="my-list.html">myList</a>
     <a href="contact.html">Contact</a>
   </nav>
 
   <div class="container">
     <!-- Featured Internships Section -->
     <section class="featured-internships">
-      <div class="internship">
+      <div class="internship" data-id="1">
         <h3>Software Engineering Intern</h3>
         <p>Company: XYZ Tech</p>
         <p>Location: Seattle, WA</p>
         <p>Duration: 3 months</p>
+        <button class="heart-button" onclick="toggleHeart('Software Engineering Intern', 'XYZ Tech', 'Seattle, WA', '3 months', this)">❤️</button>
       </div>
-      <div class="internship">
+      <div class="internship" data-id="2">
         <h3>Product Management Intern</h3>
         <p>Company: ABC Corp</p>
         <p>Location: Remote</p>
         <p>Duration: 6 months</p>
+        <button class="heart-button" onclick="toggleHeart('Product Management Intern', 'ABC Corp', 'Remote', '6 months', this)">❤️</button>
       </div>
-      <div class="internship">
+      <div class="internship" data-id="3">
         <h3>Data Science Intern</h3>
         <p>Company: DataWorks</p>
         <p>Location: New York, NY</p>
         <p>Duration: 4 months</p>
+        <button class="heart-button" onclick="toggleHeart('Data Science Intern', 'DataWorks', 'New York, NY', '4 months', this)">❤️</button>
       </div>
-      <div class="internship">
+      <div class="internship" data-id="4">
         <h3>Data Science Intern</h3>
         <p>Company: DataWorks</p>
         <p>Location: New York, NY</p>
         <p>Duration: 4 months</p>
+        <button class="heart-button" onclick="toggleHeart('Data Science Intern', 'DataWorks', 'New York, NY', '4 months', this)">❤️</button>
       </div>
-      <div class="internship">
+      <div class="internship" data-id="5">
         <h3>Web Dev Intern</h3>
         <p>Company: DataWorks</p>
         <p>Location: New York, NY</p>
         <p>Duration: 7 months</p>
+        <button class="heart-button" onclick="toggleHeart('Web Developer Intern', 'DataWorks', 'New York, NY', '7 months', this)">❤️</button>
       </div>
-      <div class="internship">
+      <div class="internship" data-id="6">
         <h3>SWE Intern</h3>
         <p>Company: DataWorks</p>
         <p>Location: New York, NY</p>
         <p>Duration: 5 months</p>
+        <button class="heart-button" onclick="toggleHeart('SWE Intern', 'DataWorks', 'New York, NY', '5 months', this)">❤️</button>
       </div>
     </section>
 
@@ -94,6 +100,9 @@
     <p>&copy; 2024 Up2Date. All Rights Reserved.</p>
   </footer>
 </main>
+
+<!-- Include app.js for functionality -->
+<script src="app.js"></script>
 
 </body>
 </html>
